@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+button{
+    width:60px;
+    height: 50px;
+    margin: 10px;
+}
+
+.fullBox{
+    border: 1px solid green;
+    background-color: white;
+    align-items: center;
+}
+
+.counter{
+    height: 300px;
+    width: 400px;
+    border: 1px solid green;
+    background-color: white;
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
