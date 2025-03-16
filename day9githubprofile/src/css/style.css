@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#heading{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+h1{
+    font-size: 50px;
+    color:white;
+}
+
+img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.searchNumber{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* .input{
+    margin-left: 30vw;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button{
+    margin-left: 2vw;
+    background-color: rgb(150, 134, 168);
+    font-size: 20px;
+} */
+
+.searchName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
