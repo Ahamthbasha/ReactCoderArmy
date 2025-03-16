@@ -1,0 +1,22 @@
+/* body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.counter{
+    background-color: white;
+    display:inline-block;
+    margin-left: 40vw;
+}
+
+.inputFibo{
+    margin-top: 10px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+} */
