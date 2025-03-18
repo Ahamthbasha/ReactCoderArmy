@@ -1,12 +1,13 @@
 import React from 'react'
-import Home from './Components/Home'
+import Home from "../src/Components/Home"
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'  // Correct import
-import Contact from './Components/Contact'
-import Dashboard from './Components/Dashboard'
-import Details from './Components/Details'
-import Hero from './Components/hero'
-import Hi from './Components/Hi'
-import Hello from './Components/Hello'
+import Contact from '../src/Components/Contact'
+import Dashboard from '../src/Components/Dashboard'
+import Details from '../src/Components/Details'
+import Hero from '../src/Components/hero'
+import Hi from '../src/Components/Hi'
+import Hello from '../src/Components/Hello'
+import Github from './Components/Github'
 
 const App = () => {
   return (
@@ -30,12 +31,10 @@ const App = () => {
           <Route path="Hi" element={<Hi />} />
         </Route>
 
+        <Route path="/Github/:name" element={<Github />}></Route>
       </Routes>
     </BrowserRouter>
   )
 }
 
-export default App;
-
-
-// when you see the html page there you can notice the anchor tag.Behind the scene it use anchor tag.
+export default App
